@@ -9,8 +9,12 @@ dependencies:
 
 sources:
   - includle_dirs:
-  
+    - ../register_interface/include
+    - ../register_interface/vendor/lowrisc_opentitan/include
     files:
+      - rtl/wide_alu_reg_pkg.sv
+      - rtl/wide_alu_reg_top.sv
+      - wide_alu_top.sv
       - wide_alu_pkg.sv
       - wide_alu.sv
 
