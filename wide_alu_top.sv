@@ -1,7 +1,6 @@
 `include "register_interface/typedef.svh"
 `include "register_interface/assign.svh"
 
-
 module wide_alu_top  #(
    parameter int unsigned AXI_ADDR_WIDTH = 32,
    localparam int unsigned AXI_DATA_WIDTH = 32,
