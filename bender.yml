@@ -1,0 +1,17 @@
+package:
+  name: wide_alu_ip
+
+
+dependencies:
+  axi:                    { git: "https://github.com/pulp-platform/axi.git", version: 0.29.1 }
+  register_interface:     { git: "https://github.com/pulp-platform/register_interface.git", version: 0.3.1 }
+
+
+sources:
+  - includle_dirs:
+  
+    files:
+      - wide_alu_pkg.sv
+      - wide_alu.sv
+
+      
